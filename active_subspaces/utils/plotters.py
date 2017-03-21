@@ -66,7 +66,7 @@ def eigenvalues(e, e_br=None, out_label=None, opts=None):
 	k = e.shape[0]
 	if out_label is None:
 		out_label = 'Output'
-
+	
 	plt.figure(figsize=(7,7))
 	plt.rc('font', **opts['myfont'])
 	plt.semilogy(range(1 ,k+1), e, 'ko-',markersize=12,linewidth=2)
