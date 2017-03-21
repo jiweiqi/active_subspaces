@@ -4,7 +4,8 @@ Library.
 """
 
 import numpy as np
-import misc as mi
+from . import misc as mi
+# import misc as mi
 
 def r_hermite(N):
     """Recurrence coefficients for the Hermite orthogonal polynomials.
